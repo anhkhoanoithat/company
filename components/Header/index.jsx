@@ -10,7 +10,7 @@ export default function Header() {
     return (
         <header
             className='
-            py-2 px-6
+            py-4 px-6
             flex justify-between items-center
             md:px-16
         '
