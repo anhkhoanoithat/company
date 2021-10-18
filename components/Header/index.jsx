@@ -12,6 +12,7 @@ export default function Header() {
             className='
             py-2 px-6
             flex justify-between items-center
+            md:px-16
         '
         >
             <div className='text-black text-3xl font-bold'>
