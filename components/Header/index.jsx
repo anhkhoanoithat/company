@@ -15,7 +15,7 @@ export default function Header() {
             md:px-16
         '
         >
-            <div className='text-black text-4xl font-bold'>
+            <div className='text-black text-3xl font-bold'>
                 <Link href='/'>Anh Khoa</Link>
             </div>
             <ul
@@ -29,7 +29,7 @@ export default function Header() {
             >
                 <div
                     className='
-                        text-white text-xl p-2
+                        text-white text-xl p-[6px]
                         bg-orange rounded-sm
                         absolute top-5 left-5 cursor-pointer
                     '
@@ -56,7 +56,7 @@ export default function Header() {
             <div className='flex justify-between items-center'>
                 <div
                     className='
-                        text-white text-xl p-2
+                        text-white text-xl p-[6px]
                         bg-orange rounded-sm cursor-pointer
                     '
                     onClick={() => setIsShow(!isShow)}

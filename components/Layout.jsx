@@ -3,7 +3,7 @@ import Footer from './Footer'
 import Head from 'next/dist/shared/lib/head'
 export default function Layout({ children }) {
     return (
-        <div>
+        <div className='w-full min-h-screen bg-white'>
             <Head>
                 <meta charSet='utf-8' />
                 <meta
