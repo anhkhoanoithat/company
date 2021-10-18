@@ -3,7 +3,7 @@ import Footer from './Footer'
 import Head from 'next/dist/shared/lib/head'
 export default function Layout({ chidren }) {
     return (
-        <div>
+        <div className='m-auto max-w-7xl'>
             <Head>
                 <meta charSet='utf-8' />
                 <meta
