@@ -8,4 +8,13 @@
     * {
         font-family: 'Poppins', sans-serif;
     }
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+    .active.menu_link {
+        transform: translateX(0);
+    }
+    .active.link {
+        @apply text-black;
+    }
 }

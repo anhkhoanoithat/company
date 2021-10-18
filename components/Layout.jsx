@@ -1,9 +1,9 @@
 import Header from './Header'
 import Footer from './Footer'
 import Head from 'next/dist/shared/lib/head'
-export default function Layout({ chidren }) {
+export default function Layout({ children }) {
     return (
-        <div className='m-auto max-w-7xl'>
+        <div>
             <Head>
                 <meta charSet='utf-8' />
                 <meta
@@ -13,7 +13,7 @@ export default function Layout({ chidren }) {
                 <meta name='description' content='Anh khoa noi that' />
             </Head>
             <Header />
-            {chidren}
+            {children}
             <Footer />
         </div>
     )
